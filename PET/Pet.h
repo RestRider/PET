@@ -13,11 +13,16 @@ public:
 	void SetName(std::string_view name);
 	std::string GetName() const;
 
+	void SetAet(double SetAet);
+	double GetAet() const;
 
-
+	void SetOld(double SetOld);
+	double GetOld() const;
 
 private:
-	std::string name{}; 
+	std::string name{};
+	double old = 0;
+	double aet = 100;
 
 
 

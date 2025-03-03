@@ -13,3 +13,23 @@ std::string Pet::GetName() const
 {
 	return name;
 }
+
+void Pet::SetAet(double SetAet)
+{
+	this->aet = aet;
+}
+
+double Pet::GetAet() const
+{
+	return aet;
+}
+
+void Pet::SetOld(double SetOld)
+{
+	this->old = old;
+}
+
+double Pet::GetOld() const
+{
+	return old;
+}
